@@ -126,7 +126,7 @@ h6 {
 
 #header {
   padding: 30px 0;
-  height: 92px;
+  height: 152px;
   position: fixed;
   left: 0;
   top: 0;
@@ -138,7 +138,7 @@ h6 {
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
-  height: 72px;
+  height: 132px;
   transition: all 0.5s;
 }
 
@@ -310,6 +310,11 @@ h6 {
 --------------------------------------------------------------*/
 
 /* Nav Menu Essentials */
+
+#container-header-top {
+  margin-right:52px;
+}
+
 
 .nav-menu,
 .nav-menu * {
