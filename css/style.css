@@ -1648,3 +1648,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-height: 50%;
   margin-bottom: 35px;
 }
+
+#process_icon{
+ margin-bottom: 25px;
+}
+
+#become_member_btn{
+  border-radius: 15px;
+  padding: 10px;
+  background-color:rgb(24,210,110);
+  color: white;
+}
+
+#become_member_btn:hover {
+  background: rgb(17, 17, 17);
+  color: #18d26e;
+}
