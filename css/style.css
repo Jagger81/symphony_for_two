@@ -1562,6 +1562,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
+
+  #logo_smallscreen {
+    display: none;
+  }
+
 }
 
 @media (min-width: 992px) {
