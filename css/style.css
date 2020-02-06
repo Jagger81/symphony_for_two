@@ -138,7 +138,7 @@ h6 {
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
-  height: 132px;
+  height: 225px;
   transition: all 0.5s;
 }
 
@@ -214,9 +214,10 @@ h6 {
   align-items: center;
   position: absolute;
   bottom: 0;
-  top: 0;
+  top: 60px;
   left: 0;
   right: 0;
+  margin-top: 50px;
 }
 
 #intro .carousel-background img {
@@ -315,13 +316,19 @@ h6 {
   margin-right:52px;
 }
 
-.header-top-info i.fa-envelope{
-  padding-left:10px;
+#flags i.fa-envelope{
+  padding-left:5px;
   padding-right: 0px;
 }
 
 .header-top-info i{
   padding-right:20px;
+}
+
+#flags img{
+  padding-left:10px;
+  padding-right: 10px;
+  max-width: 3.5%;
 }
 
 
@@ -385,8 +392,9 @@ h6 {
 /* Nav Meu Container */
 
 #nav-menu-container {
-  float: right;
-  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
 }
 
 /* Nav Meu Styling */
@@ -444,10 +452,11 @@ h6 {
 
 #mobile-nav-toggle {
   position: fixed;
+
   right: 0;
   top: 0;
   z-index: 999;
-  margin: 20px 20px 0 0;
+  margin: 30px 20px 0 0;
   border: 0;
   background: none;
   font-size: 24px;
@@ -1268,6 +1277,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact {
   padding: 60px 0;
+  background: #050815 url(../img/slider_4.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #contact .contact-info {
@@ -1372,13 +1386,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }    
 
 #contact .form button[type="submit"] {
-  background: #18d26e;
+  background: #303331;
   border: 0;
   padding: 10px 30px;
   color: #fff;
   transition: 0.4s;
   cursor: pointer;
   border-radius: 15px;  /*CHANGE*/
+  width: 100%;
 }
 
 #contact .form button[type="submit"]:hover {
@@ -1579,8 +1594,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (min-width: 1024px) {    /*larger than 1024*/
   #header #logo {
-    padding-left: 60px;
-    margin-top: -45px;     /*CHANGE*/
+    padding-left: 20px;
+    margin-top: 0px;     /*CHANGE*/
+    max-height: 10%;  
   }
 
   #intro p {
@@ -1593,7 +1609,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #nav-menu-container {
-    padding-right: 60px;
+    padding-right: 0px;
   }
 }
 
@@ -1609,6 +1625,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   #header #logo img {
     max-height: 40px;
     display: none;    /*CHANGE*/
+  }
+
+  #flags img{
+    padding-left:10px;
+    padding-right: 10px;
+    max-width: 10%;
   }
 
   #intro h2 {
@@ -1663,4 +1685,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #become_member_btn:hover {
   background: rgb(17, 17, 17);
   color: #18d26e;
+}
+
+#flags{
+  background-color: rgba(0,0,0,0.5);
 }
