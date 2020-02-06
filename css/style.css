@@ -1223,6 +1223,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: rgba(0, 0, 0, 0.7);
   opacity: 1;
   transition: 0.4s;
+  border-radius: 50%;
 }
 
 #team .member:hover .member-info-content {
@@ -1551,7 +1552,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media (min-width: 768px) {
+@media (min-width: 768px) {  /*larger than 768*/
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
@@ -1569,13 +1570,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) {    /*larger than 992*/
   #testimonials .testimonial-item p {
     width: 80%;
   }
+
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) {    /*larger than 1024*/
   #header #logo {
     padding-left: 60px;
     margin-top: -45px;     /*CHANGE*/
@@ -1595,7 +1597,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {  /*smaller than 768*/
   .back-to-top {
     bottom: 15px;
   }
@@ -1628,5 +1630,21 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: all 0.5s;
   }
 
+}
 
+#find_love_img {
+  max-width: 100%;
+  margin-bottom: 25px;
+}
+
+#find_love_header h2 {
+  font-family: 'Jim Nightshade', cursive;
+  font-size: 300%;
+  color: gray;
+}
+
+#laura_photo{
+  border-radius: 50%;
+  max-height: 50%;
+  margin-bottom: 35px;
 }
