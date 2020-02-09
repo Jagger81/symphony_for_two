@@ -126,7 +126,7 @@
   var main_nav = $('.nav-menu, #mobile-nav');
   var main_nav_height = $('#header').outerHeight();
 
-  $(window).on('scroll', function () {
+  /* $(window).on('scroll', function () {
     var cur_pos = $(this).scrollTop();
   
     nav_sections.each(function() {
@@ -138,7 +138,15 @@
         main_nav.find('a[href="#'+$(this).attr('id')+'"]').parent('li').addClass('menu-active menu-item-active');
       }
     });
-  });
+  }); */
+
+  $(document).on('scroll', function() {
+    if ($(document).scrollTop() >= 75) {
+      $('#logo img').css('width', '250px');
+    } else {
+      $('#logo img').css('width', '');
+    }
+   });
 
   // Intro carousel
   var introCarousel = $(".carousel");

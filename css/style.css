@@ -126,13 +126,14 @@ h6 {
 
 #header {
   padding: 30px 0;
-  height: 152px;
+  height: 252px;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  background-color: black;
 }
 
 #header.header-scrolled {
@@ -217,7 +218,6 @@ h6 {
   top: 60px;
   left: 0;
   right: 0;
-  margin-top: 50px;
 }
 
 #intro .carousel-background img {
@@ -1583,6 +1583,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: none;
   }
 
+  #intro .carousel-item {
+    margin-top: 225px;    /*CHANGE*/
+    height: 450px;
+  }
+
 }
 
 @media (min-width: 992px) {    /*larger than 992*/
@@ -1596,7 +1601,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #header #logo {
     padding-left: 20px;
     margin-top: 0px;     /*CHANGE*/
-    max-height: 10%;  
+    max-height: 10%;
   }
 
   #intro p {
@@ -1652,6 +1657,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: all 0.5s;
   }
 
+  .below_navbar{
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+
+  #how_it_works{
+    margin-top: 100px;
+  }
+
+  #header{
+    height: 100px;
+  }
+
 }
 
 #find_love_img {
@@ -1689,4 +1707,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #flags{
   background-color: rgba(0,0,0,0.5);
+}
+
+.transition{
+  width:350px;  
+  transition: all 1s ease;
+}
+
+.below_navbar{
+  margin-top: 225px;
+  padding-top: 50px;
 }
