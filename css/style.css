@@ -1354,7 +1354,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
-#contact .form #sendmessage {
+#questionnaire {
+  padding: 60px 0;
+  background: #050815 url(../img/slider_5.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+  margin-top: 225px;
+}
+
+#questionnaire .form #sendmessage {
   color: #18d26e;
   border: 1px solid #18d26e;
   display: none;
@@ -1364,7 +1374,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
 }
 
-#contact .form #errormessage {
+#questionnaire .form #errormessage {
   color: red;
   display: none;
   border: 1px solid red;
@@ -1374,13 +1384,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
 }
 
-#contact .form #sendmessage.show,
-#contact .form #errormessage.show,
-#contact .form .show {
+#questionnaire .form #sendmessage.show,
+#questionnaire .form #errormessage.show,
+#questionnaire .form .show {
   display: block;
 }
 
-#contact .form .validation {
+#questionnaire .form .validation {
   color: red;
   display: none;
   margin: 0 0 20px;
@@ -1388,20 +1398,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
 }
 
-#contact .form input,
-#contact .form textarea {
+#questionnaire .form input,
+#questionnaire .form textarea {
   padding: 10px 14px;
   border-radius: 15px;
-  border: solid;
+  border: solid 1.5px;
   border-color: #97f3c2;
   box-shadow: none;
   font-size: 15px;
 }
 
-#contact .form select{
+#questionnaire .form select{
   padding: 10px 14px;
   border-radius: 15px;
-  border: solid;
+  border: solid 1.5px;
   border-color: #97f3c2;
   box-shadow: none;
   font-size: 14px;
@@ -1415,7 +1425,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-clip: padding-box;
 }    
 
-#contact .form button[type="submit"] {
+#questionnaire .form button[type="submit"] {
   background: #303331;
   border: 0;
   padding: 10px 30px;
@@ -1426,11 +1436,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100%;
 }
 
-#contact .form button[type="submit"]:hover {
+#questionnaire .form button[type="submit"]:hover {
   background: #13a456;
 }
 
-#contact .btn-get-started {
+#questionnaire .btn-get-started {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -1444,7 +1454,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #18d26e;
 }
 
-#contact .btn-get-started:hover {
+#questionnaire .btn-get-started:hover {
   background: #fff;
   color: #18d26e;
 }
