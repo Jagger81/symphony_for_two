@@ -1875,6 +1875,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 100px;
   }
 
+  #laura_photo{
+    border-radius: 50%;
+    max-width:250px;
+    max-height: auto;
+    margin-bottom: 35px;
+  }
+
 }
 
 #find_love_img {
