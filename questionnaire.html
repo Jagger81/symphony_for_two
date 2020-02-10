@@ -66,7 +66,7 @@
         
           <div class="col-lg-12 col-md-12 text-center" id="logo">
           
-              <a href="#"><img class="transition" src="img/SFT_logo.png" alt="SFT Logo" title="" /></a>
+              <a href="#intro"><img class="transition" src="img/SFT_logo.png" alt="SFT Logo" title="" /></a>
             
           </div>
 
@@ -84,7 +84,7 @@
               <ul class="nav-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="index.html#about">About Us</a></li>
-                <li><a href="how_it_works.html">How It Works</a></li>
+                <li class="menu-active"><a href="#how_it_works">How It Works</a></li>
                 <li><a href="index.html#services">Services</a></li>
                 <!--<li><a href="#portfolio">Portfolio</a></li>-->
                 <!--<li><a href="#team">Testimonials</a></li>-->
@@ -112,67 +112,36 @@
 
   <main id="main">
 
-   <!--==========================
-      Contact Section
+ <!--==========================
+      How It Works Section
     ============================-->
-    <section id="questionnaire" class="section-bg wow fadeInUp">
+    <section id="how_it_works" class="section-bg wow fadeInUp below_navbar">
       <div class="container">
 
-        <div class="section-header">
-          <h3 style="color: ghostwhite;">Contact Us / Become A Member</h3>
-          <p style="color: ghostwhite;">Use the form below to submit your contact details and we will send you a copy of our membership form (please indicate which langauge you prefer)</p>
-        </div>
+        <div>
+          <div id="find_love_header" class="col-12 text-center" style="color: #18d26e;">
+          <h2>How It Works</h2>
+          </div><br>
 
-          <div class="form">
-          <form action="https://formcarry.com/s/zUYsCHxjJqM" method="POST" accept-charset="UTF-8" role="form" class="contactForm">
-           
-            <div class="form-row"> 
-              <div class="form-group col-md-4">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-rule="required" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-4">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-rule="required" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-4">
-                <input type="phone" class="form-control" name="phone" id="phone" placeholder="Your Phone Number" data-rule="phone" data-msg="Please enter a valid phone number" />
-                <div class="validation"></div>
-              </div>
-            </div>
+          <div class="row">
 
-            <div class="form-group">
-              <select name="language" class="form_control" name="langauge" id="language" placeholder="Langauge" data-rule="required">
-                <option selected="selected" disabled="disabled">Preferred Langauge of Communication</option>
-                <option value="English">English</option>
-                <option value="Lithuanian">Lithuanian</option>
-                <option value="Russian">Russian</option>
-              </select>
-              <div class="validation"></div>
+          <!--<div class="col-md-6 col-sm-12">
+            <img id="find_love_img" src="img/intro_photo.jpg" alt="">
+          </div>-->
+
+          <div class="col-12">
+          
+
           </div>
 
-          <div class="form-group">
-            <select name="subject" class="form_control" name="subject" id="subject" placeholder="Subject" data-rule="required">
-              <option selected="selected" disabled="disabled">Tell us how we can help?</option>
-              <option value="I Wish To Become a Member">I Wish To Become a Member</option>
-              <option value="General Enquiry">General Enquiry</option>
-              <option value="Cancel Memebership">I wish to Cancel My Membership</option>
-            </select>
-            <div class="validation"></div>
-        </div>
-
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-              <div class="validation"></div>
-            </div>
-            <input type="hidden" name="_gotcha">
-            <div class="text-center"><button id="contact_submit" type="submit">Send Message</button></div>
-          </form>
         </div>
 
       </div>
-    </section><!-- #contact -->
-      
+
+      </div>
+    </section><!-- inteo option -->  
+
+  
   </main>
 
 
@@ -207,7 +176,7 @@
               Address 1<br>
               Ireland <br>
               <strong>Phone:</strong> +353-87-324-2623<br>
-              <strong>Email:</strong> hello@symphonyfortwo.com <br>
+              <strong>Email:</strong> hello@symphonyfortwo.com<br>
             </p>
 
             <div class="social-links">
@@ -268,7 +237,7 @@
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
   <!-- Contact Form JavaScript File -->
-  <!--<script src="contactform/contactform.js"></script>-->
+  <script src="contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
