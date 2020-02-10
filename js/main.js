@@ -142,7 +142,7 @@
 
   $(document).on('scroll', function() {
     if ($(document).scrollTop() >= 75) {
-      $('#logo img').css('width', '250px');
+      $('#logo img').css('width', '150px');  /*Logo Resize*/
     } else {
       $('#logo img').css('width', '');
     }
