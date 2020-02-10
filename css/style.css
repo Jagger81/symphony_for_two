@@ -1782,8 +1782,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #contact .contact-phone {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+    /*border-left: 1px solid #ddd;   CHANGE*/
+    border-right: 3px solid #ddd;
   }
 
   #logo_smallscreen {
