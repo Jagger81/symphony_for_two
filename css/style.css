@@ -1810,7 +1810,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #flags_large img{
     padding-left:10px;
     padding-right: 10px;
-    max-width: 3.5%;
+    max-width: 40px;
   }
 
 }
@@ -1857,7 +1857,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     transform: translatex(-50%);
     width: 55%;
   }
-}  
+}
 
 @media (max-width: 768px) {  /*smaller than 768*/
   .back-to-top {
