@@ -1910,6 +1910,73 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 
+@media (max-width: 320px) {  /*smaller than 320*/
+  
+  #intro .carousel-item {
+    margin-top: 120px;    /*CHANGE*/
+    height: 650px;
+  }
+
+  #logo_smallscreen{
+    margin-top: -80px;
+  }
+
+  .back-to-top {
+    bottom: 15px;
+  }
+
+  #flags_large{
+    display: none;
+  }
+
+  #flags_small img{
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    max-width: 50px;
+  }
+
+  #intro h2 {
+    font-size: 28px;
+  }
+
+  #nav-menu-container {
+    display: none;
+  }
+
+  #mobile-nav-toggle {
+    display: inline;
+  }
+
+  #header.header-scrolled {             
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    height: 120px;       /*CHANGE - Section added*/
+    transition: all 0.5s;
+  }
+
+  .below_navbar{
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+
+  #how_it_works{
+    margin-top: 120px;
+  }
+
+  #header{
+    height: 120px;
+    padding: 20px;
+  }
+
+  #laura_photo{
+    border-radius: 50%;
+    max-width:250px;
+    max-height: auto;
+    margin-bottom: 35px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Additional Styling
 --------------------------------------------------------------*/
