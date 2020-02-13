@@ -1865,7 +1865,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-left:10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    max-width: 15%;
+    max-width: 50px;
   }
 
   #intro h2 {
@@ -1909,6 +1909,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
 }
+
+/*--------------------------------------------------------------
+# Additional Styling
+--------------------------------------------------------------*/
 
 #find_love_img {
   max-width: 100%;
