@@ -1842,7 +1842,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-right: 0px;
   }
 
-  
+}
+
+@media screen and (max-height: 420px) and (orientation: landscape) {
+  #intro .carousel-item {
+    margin-top: 0px;    /*CHANGE*/
+    height: 600px;
+  }
+
 }
 
 
