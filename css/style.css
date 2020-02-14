@@ -1790,7 +1790,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #intro .carousel-item {
     margin-top: 120px;    /*CHANGE*/
-    height: 650px;
+    height: 700px;
   }
 
   #flags_small{
@@ -1844,7 +1844,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 
-@media screen and (max-height: 420px) and (orientation: landscape) {
+@media screen and (max-height: 450px) and (orientation: landscape) {
   #intro .carousel-item {
     margin-top: 0px;    /*CHANGE*/
     height: 600px;
@@ -1852,9 +1852,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 
+@media screen and (max-width: 1092px) and (min-width: 768px) {
+  #nav-menu-container {
+    display: none;
+  }
+
+}
+
 
 
 @media (max-width: 768px) {  /*smaller than 768*/
+  
+  #intro .carousel-container{
+    top: 130px;
+  }
+  
   .back-to-top {
     bottom: 15px;
   }
