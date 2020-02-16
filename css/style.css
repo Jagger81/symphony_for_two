@@ -1941,7 +1941,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #logo_smallscreen{
-    margin-top: -80px;
+    margin-top: -180px;
   }
 
   .back-to-top {
@@ -1974,13 +1974,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   #header.header-scrolled {             
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
-    height: 120px;       /*CHANGE - Section added*/
+    height: 80px;       /*CHANGE - Section added*/
     transition: all 0.5s;
   }
 
   .below_navbar{
-    margin-top: 50px;
-    padding-top: 50px;
+    margin-top: 30px;
+    padding-top: 30px;
   }
 
   #how_it_works{
