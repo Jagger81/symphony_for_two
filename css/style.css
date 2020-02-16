@@ -1797,6 +1797,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: none;
   }
 
+  #flags_footer{
+    display: none;
+  }
+
   #flags_large i.fa-envelope{
     padding-left:5px;
     padding-right: 0px;
@@ -1889,6 +1893,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-right: 10px;
     padding-bottom: 10px;
     max-width: 50px;
+  }
+
+  #flags_footer img{
+    padding: 15px 5px 10px 5px;
+    max-width: 40px;
   }
 
   #intro h2 {
