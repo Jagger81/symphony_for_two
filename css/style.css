@@ -126,21 +126,21 @@ h6 {
 
 #header {
   padding: 20px 0;
-  height: 120px;
+  height: 190px;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-  background-color: rgba(37, 36, 36, 0.7);
+  background-color: ghostwhite;
   /*background-color: rgba(243, 243, 243, 0.87);*/
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.6);  /* TRANSPARENT NAVBAR CHANGE*/
+  background: ghostwhite  /* TRANSPARENT NAVBAR CHANGE*/
   padding: 20px 0;
-  height: 120px;
+  height: 190px;
   transition: all 0.5s;
 }
 
@@ -192,7 +192,7 @@ h6 {
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -398,7 +398,7 @@ h6 {
   padding: 0 8px 10px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: black;           /*CHANGE Feb 2020*/
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 13px;
@@ -462,7 +462,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #fff;
+  color: black;
 }
 
 /* Mobile Nav Styling */
@@ -1797,6 +1797,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: none;
   }
 
+  #flags_large{
+    display: none;
+  }                   /*CHANGE Feb 2020*/
+
   #flags_footer{
     display: none;
   }
@@ -1845,6 +1849,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-right: 0px;
   }
 
+  #logo_new{
+    max-width: 20%;
+    max-height: auto;
+    padding-bottom: 0;
+    padding-top: 5px;
+    margin-top: -20px;
+  }
+
 }
 
 @media screen and (max-height: 450px) and (orientation: landscape) {
@@ -1883,7 +1895,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: none;    /*CHANGE*/
   }
 
+  #logo_new{
+    max-width: 25%;
+    max-height: auto;
+    padding-bottom: 0;
+    padding-top: 5px;
+    margin-top: -10px;
+  }
+
   #flags_large{
+    display: none;
+  }
+
+  #flags_small{
     display: none;
   }
 
@@ -1912,7 +1936,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #header.header-scrolled {             
-    background: rgba(0, 0, 0, 0.7);
+    background: ghostwhite;
     padding: 20px;
     height: 90px;       /*CHANGE - Section added*/
     transition: all 0.5s;
@@ -1952,6 +1976,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: -180px;
   }
 
+  #logo_new{
+    max-width: 45%;
+    max-height: auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin-top: -10px;
+  }
+
   .back-to-top {
     bottom: 15px;
   }
@@ -1980,7 +2012,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #header.header-scrolled {             
-    background: rgba(0, 0, 0, 0.7);
+    background: ghostwhite;
     padding: 20px;
     height: 90px;       /*CHANGE - Section added*/
     transition: all 0.5s;
@@ -2108,3 +2140,4 @@ body.mobile-nav-active #mobile-nav-toggle {
 #header-padding{
   padding-right: 80px;
 }
+
