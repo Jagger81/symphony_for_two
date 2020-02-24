@@ -1500,7 +1500,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #tips .container {
   position: relative;
   z-index: 10;
-  margin-top: 120px;
+  margin-top: 180px;
 }
 
 #tips .about-col {
@@ -2089,7 +2089,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .below_navbar{
-  margin-top: 120px;
+  margin-top: 160px;
   padding-top: 50px;
 }
 
