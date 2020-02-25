@@ -1822,10 +1822,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #intro .carousel-content {
-    margin-top: -80px;
-  }
-
-  #intro .carousel-content {
     margin-top: -10px;
   }
 
@@ -1881,7 +1877,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #intro .carousel-content {
-    margin-top: -60px;
+    margin-top: -20px;
   }
 
 }
@@ -1976,7 +1972,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #intro .carousel-content {
-    margin-top: -120px;
+    margin-top: -20px;
   }
 
 }
@@ -2056,7 +2052,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #intro .carousel-content {
-    margin-top: -320px;
+    margin-top: -10px;
+  }
+
+  .carousel-content h1{
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 }
