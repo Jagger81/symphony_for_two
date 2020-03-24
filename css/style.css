@@ -2173,3 +2173,8 @@ video {
   /*box-shadow:         10px 10px 5px 0px  rgba(139, 134, 134, 0.75);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
+.membership-col ul {
+  padding-left: 12px;
+  font-weight: bold;
+}
+
